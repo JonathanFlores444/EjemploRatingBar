@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
     public void contar1(View v){
         String nombre = tvName1.getText().toString();
        float resultado = rbStar1.getRating();
-        Toast.makeText(MainActivity.this,nombre+" ha sido calificado con "+resultado+" estrellas", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,nombre+" ha sido calificado con "+resultado+" estrellas :D", Toast.LENGTH_SHORT).show();
     }
     public void contar2(View v){
         String nombre = tvName2.getText().toString();
         float resultado = rbStar2.getRating();
-        Toast.makeText(MainActivity.this,nombre+" ha sido calificado con "+resultado+" estrellas", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,nombre+" ha sido calificado con "+resultado+" estrellas :D", Toast.LENGTH_SHORT).show();
     }
 }
